@@ -1,41 +1,12 @@
-body {
+body{
     font-family: 'Lato', sans-serif;
-    background-color:antiquewhite;
 }
-h1 {
-    color:blue;
-    background-color:burlywood;
+/*To call the class start with a "."*/
+.center{
+    text-align: center;
 }
-h2 {
-    color:white;
-    background-color:aquamarine;
-}
-p {
-    font-size:20px;
-    font-weight:700;
-}
-img {
-    height: 200px;
-    width: 200px;
-}
-/*to call the class,you will start with a "." */
-.abc {
-    font-size:18px;
-    color:aqua;
-    background-color:blue;
-}
-/* call an ID,we can use"#" */
-#xyz {
-    font-size:30px;
-    color:brown;
-    background-color:red;
-}
-.qwe{
-    background-color:red;
-}
-h1{
-    display:inline-block;
-}
-a{
-    display:block;
+/*To call the ID start with a "#" */
+/* ID should be used only once*/
+#italic{
+    font-family: 'Courgette', cursive;
 }
